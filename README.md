@@ -18,9 +18,9 @@
 ## Le moteur de template
 - https://twig.symfony.com/
 - Twig est un moteur de gabarit intégré au framework Symfony, avec une syntaxe claire et sécurisée par défaut.
-- Chaque fichié twig fini par l'extension ".twig"
+- Chaque fichier twig fini par l'extension ".twig"
 - En gros : 
-    - Il nous permet d'éviter de mélanger du code html, css avec du php 
+    - Il nous permet de mieux séparer du code html,css du code php 
     - Il nous permet également d'alléger la syntaxe de la vue
     - De mieux sécuriser l'affichage des données
 

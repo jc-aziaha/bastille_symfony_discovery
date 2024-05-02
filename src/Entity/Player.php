@@ -16,6 +16,11 @@ class Player
     #[ORM\Column(length: 255)]
     private ?string $name = null;
 
+    #[ORM\Column]
+    private ?int $power = null;
+
+
+
     public function getId(): ?int
     {
         return $this->id;
@@ -32,4 +37,18 @@ class Player
 
         return $this;
     }
+
+    public function getPower(): ?int
+    {
+        return $this->power;
+    }
+
+    public function setPower(int $power): static
+    {
+        $this->power = $power;
+
+        return $this;
+    }
+
+
 }
